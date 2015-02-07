@@ -19,6 +19,9 @@ mkdir libraries
 #Create a tools directory to store build tools and etc.
 mkdir tools
 
+#Create a projects directory to store repos
+mkdir projects
+
 #Download scala
 cd libraries
 wget downloads.typesafe.com/scala/2.11.5/scala-2.11.5.tgz
@@ -48,9 +51,3 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 tar -zxvf jdk-8u31-linux-x64.tar.gz
 rm jdk-8u31-linux-x64.tar.gz
 cd ..
-
-#Set-up PATH variable
-export JAVA_HOME=~/libraries/jdk1.8.0_31
-export PATH=$JAVA_HOME/bin:$PATH
-export PATH=~/libraries/scala-2.11.5/bin:$PATH
-export PATH=~/tools/sbt/bin:$PATH
