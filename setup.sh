@@ -51,3 +51,6 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 tar -zxvf jdk-8u31-linux-x64.tar.gz
 rm jdk-8u31-linux-x64.tar.gz
 cd ..
+
+#Screen setup
+cp emacsconfig/.screenrc ~/
